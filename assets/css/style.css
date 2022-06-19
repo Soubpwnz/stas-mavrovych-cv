@@ -31,8 +31,6 @@ h1 {
   white-space: nowrap;
 
   color: rgb(163, 162, 162);
-  font-size: 18px;
-  font-family: 'Fira Code', monospace;
 }
 
 .container_title {
@@ -41,8 +39,6 @@ h1 {
   text-align: left;
 
   font-weight: 600;
-  font-size: 18px;
-  font-family: 'Fira Code', monospace;
 }
 
 .container_about_me {
@@ -53,6 +49,11 @@ h1 {
   font-weight: 400;
 
   letter-spacing: -0.5px;
+}
+
+.container_help {
+  font-size: 18px;
+  font-family: 'Fira Code', monospace;
 }
 
 .sidebar {
