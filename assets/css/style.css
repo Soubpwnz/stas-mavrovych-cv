@@ -16,6 +16,7 @@ h1 {
   font-weight: 700;
   font-size: 18px;
 }
+
 /*additional*/
 
 .container {
@@ -76,7 +77,7 @@ h1 {
 }
 
 .container_indent {
- margin: 0 20px;
+  margin: 0 20px;
 }
 
 /*in container list*/
@@ -85,8 +86,9 @@ h1 {
 }
 
 .text {
-   margin-bottom: 5px;
+  margin-bottom: 5px;
 }
+
 /*in container list*/
 
 .sidebar {
