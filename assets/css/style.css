@@ -1,6 +1,7 @@
 body {
   background-color: rgb(245, 245, 245);
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Fira Code', monospace;
 }
 
 h1 {
@@ -8,8 +9,15 @@ h1 {
 
   font-size: 26px;
   font-weight: 700;
-  font-family: 'Fira Code', monospace;
 }
+
+/*additional*/
+.helpers_subtitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/*additional*/
 
 .container {
   display: flex;
@@ -22,6 +30,7 @@ h1 {
 
 .container_main {
   background-color: white;
+  padding-left: 10px;
 
   width: 35%;
 }
@@ -37,22 +46,50 @@ h1 {
   color: rgb(163, 162, 162);
 
   font-size: 18px;
-  font-family: 'Fira Code', monospace;
-}
-
-.container_title {
-  font-weight: 600;
 }
 
 .container_about_me {
-  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.container_help_2 {
-  margin-left: 20px;
+.container_title {
+  margin: 30px 0 10px 0;
+  font-weight: 600;
+
+  text-align: left;
 }
+
+.container_time {
+  margin-bottom: 10px;
+
+  color: rgb(163, 162, 162);
+}
+
+.container_block {
+  font-weight: 500;
+}
+
+.container_text {
+  margin-bottom: 10px;
+}
+
+.container_indent {
+  margin: 0 20px;
+}
+
+/*in container list*/
+.list_main {
+  list-style: unset;
+}
+
+.text {
+  margin-bottom: 5px;
+}
+
+/*in container list*/
 
 .sidebar {
   background-color: rgb(219, 218, 218);
@@ -66,16 +103,41 @@ h1 {
 }
 
 .sidebar_title {
-  margin-top: 15px;
-
-  font-weight: 600;
-
+  margin-top: 30px;
   font-size: 18px;
-  font-family: 'Fira Code', monospace;
+  font-weight: 600;
+}
+
+.sidebar_skills_main {
+  margin-top: 50px;
+}
+
+.sidebar_skills {
+  margin-bottom: 10px;
+}
+
+.sidebar_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.sidebar_text {
+  height: 14px;
+
+  padding: 6px;
+
+  background: rgb(245, 242, 242);
+  border-radius: 4px;
+
+  color: rgb(39, 38, 38);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
 }
 
 .sidebar_icons {
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -106,10 +168,15 @@ a:hover {
 .sidebar_contacts {
   margin-top: 15px;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 .sidebar_mail {
   margin-top: 10px;
+}
+
+.sidebar_title {
+  margin-top: 35px;
 }
 
 .image {
