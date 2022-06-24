@@ -14,7 +14,7 @@ h1 {
 /*additional*/
 .helpers_subtitle {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*additional*/
@@ -76,6 +76,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.container_study {
+  margin-top: 30px;
+}
+
 .container_indent {
   margin: 0 20px;
 }
@@ -83,6 +87,7 @@ h1 {
 /*in container list*/
 .list_main {
   list-style: unset;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -103,17 +108,17 @@ h1 {
 }
 
 .sidebar_title {
-  margin-top: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .sidebar_skills_main {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .sidebar_skills {
   margin-bottom: 10px;
+  font-size: 12px;
 }
 
 .sidebar_list {
