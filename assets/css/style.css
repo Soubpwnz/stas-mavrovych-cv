@@ -30,7 +30,6 @@ h1 {
 
 .container_main {
   background-color: white;
-  padding-left: 10px;
 
   width: 35%;
 }
@@ -82,6 +81,7 @@ h1 {
 
 .container_indent {
   margin: 0 20px;
+  padding-left: 10px;
 }
 
 /*in container list*/
@@ -149,7 +149,7 @@ h1 {
   justify-content: space-between;
 }
 
-.rewievs_icons {
+.reviews_icons {
   display: flex;
   justify-content: center;
   align-items: center;
