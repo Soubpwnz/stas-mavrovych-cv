@@ -90,7 +90,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.text {
+.list_main li {
   margin-bottom: 5px;
 }
 
@@ -128,7 +128,7 @@ h1 {
   gap: 5px;
 }
 
-.sidebar_text {
+.sidebar_list li {
   height: 14px;
 
   padding: 6px;
