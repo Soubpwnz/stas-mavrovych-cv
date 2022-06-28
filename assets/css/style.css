@@ -20,11 +20,11 @@ h1 {
 /*additional*/
 
 .container {
+  padding: 55px 0;
   display: flex;
   margin: 0 auto;
 
   width: 1050px;
-
   justify-content: center;
 }
 
@@ -63,8 +63,9 @@ h1 {
 
 .container_time {
   margin-bottom: 10px;
-
-  color: rgb(163, 162, 162);
+  line-height: 20px;
+  color: rgb(78, 76, 76);
+  letter-spacing: 1px;
 }
 
 .container_block {
@@ -73,6 +74,12 @@ h1 {
 
 .container_text {
   margin-bottom: 10px;
+}
+
+.container_footer {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .container_study {
