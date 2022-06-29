@@ -26,10 +26,12 @@ h1 {
   margin: 50px auto;
   width: 700px;
   justify-content: center;
+
+  transition: box-shadow linear .2s;
 }
 
 .container:hover {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: -1px -2px 75px 0px rgba(194,173,173,0.86);
 }
 
 .container_main {
