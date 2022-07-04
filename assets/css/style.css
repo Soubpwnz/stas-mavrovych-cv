@@ -226,10 +226,15 @@ a:hover {
   }
 
   .container {
-    margin: 0 auto;
+    margin: 0;
     max-width: 100%;
     display: block;
   }
+
+  .container_study {
+    padding-bottom: 10px;
+  }
+
 
   .sidebar {
     width: 100%;
@@ -238,4 +243,9 @@ a:hover {
   .container_main {
     width: 100%;
   }
+
+  .helpers_subtitle {
+    padding-bottom: 10px;
+  }
 }
+
