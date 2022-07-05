@@ -24,7 +24,7 @@ h1 {
 .container {
   display: flex;
   margin: 50px auto;
-  width: 700px;
+  width: 800px;
   justify-content: center;
 
   transition: box-shadow linear .2s;
@@ -247,8 +247,16 @@ a:hover {
     width: 100%;
   }
 
+  .container_my_prof {
+    margin-bottom: 25px;
+  }
+
+  .container_chapter {
+    padding-top: 20px;
+  }
+
   .helpers_subtitle {
-    padding: 10px 0;
+    text-align: center;
   }
 
   .sidebar {
@@ -260,8 +268,29 @@ a:hover {
     text-align: center;
   }
 
+  .sidebar_main {
+    text-align: center;
+  }
+
   .sidebar_icons {
-    justify-content:left;
+    justify-content: center;
     gap: 30px;
+  }
+
+  .sidebar_skills_main {
+    margin-top: 10px;
+  }
+
+  .sidebar_title {
+    margin-top: 30px;
+  }
+
+  .sidebar_list {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .sidebar_contacts {
+    margin-bottom: 15px;
   }
 }
