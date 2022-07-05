@@ -260,8 +260,16 @@ a:hover {
     text-align: center;
   }
 
+  .sidebar_main {
+    text-align: center;
+  }
+
   .sidebar_icons {
-    justify-content:left;
+    justify-content:center;
     gap: 30px;
+  }
+
+  .sidebar_list {
+    justify-content: center;
   }
 }
