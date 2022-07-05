@@ -251,6 +251,14 @@ a:hover {
     margin-bottom: 25px;
   }
 
+  .container_chapter {
+    padding-top: 20px;
+  }
+
+  .helpers_subtitle {
+    text-align: center;
+  }
+
   .sidebar {
     width: 100%;
   }
@@ -278,7 +286,7 @@ a:hover {
   }
 
   .sidebar_list {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     justify-content: center;
   }
 
