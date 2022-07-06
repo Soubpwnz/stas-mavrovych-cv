@@ -19,6 +19,10 @@ h1 {
   font-size: 20px;
 }
 
+.translate {
+  background: transparent;
+  border: none;
+}
 /*additional*/
 
 .container {
@@ -28,6 +32,10 @@ h1 {
   justify-content: center;
 
   transition: box-shadow linear .2s;
+}
+
+.container_pic {
+  height: 15px;
 }
 
 .container:hover {
