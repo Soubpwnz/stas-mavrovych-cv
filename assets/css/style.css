@@ -23,6 +23,7 @@ h1 {
   background: transparent;
   border: none;
 }
+
 /*additional*/
 
 .container {
@@ -36,6 +37,10 @@ h1 {
 
 .container_pic {
   height: 15px;
+}
+
+.active {
+  border: 1px solid black;
 }
 
 .container:hover {
