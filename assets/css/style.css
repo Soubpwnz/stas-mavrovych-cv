@@ -37,6 +37,7 @@ h1 {
 
 .container_pic {
   height: 15px;
+  box-sizing: border-box;
 }
 
 .active {
