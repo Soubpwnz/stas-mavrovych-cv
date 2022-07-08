@@ -161,7 +161,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .sidebar_list li {
