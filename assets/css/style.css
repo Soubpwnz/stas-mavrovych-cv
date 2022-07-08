@@ -37,6 +37,7 @@ h1 {
 
 .container_pic {
   height: 15px;
+  box-sizing: border-box;
 }
 
 .active {
@@ -128,6 +129,10 @@ h1 {
   width: 35%;
 }
 
+.sidebar_lang {
+  margin: 5px 0 0 5px;
+}
+
 .sidebar_header {
   display: none;
 }
@@ -156,7 +161,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .sidebar_list li {
