@@ -11,27 +11,47 @@ h1 {
   font-weight: 700;
 }
 
+
+
 /*additional*/
 .helpers_subtitle {
   font-weight: 700;
   font-size: 20px;
 }
 
+.translate {
+  background: transparent;
+  border: none;
+}
+
 /*additional*/
 
 .container {
   display: flex;
-  margin: 0 auto;
-
-  width: 1050px;
-
+  margin: 50px auto;
+  width: 800px;
   justify-content: center;
+
+  transition: box-shadow linear .2s;
+}
+
+.container_pic {
+  height: 15px;
+  box-sizing: border-box;
+}
+
+.active {
+  border: 1px solid black;
+}
+
+.container:hover {
+  box-shadow: -1px -2px 75px 0px rgba(194, 173, 173, 0.86);
 }
 
 .container_main {
   background-color: white;
 
-  width: 35%;
+  width: 65%;
 }
 
 .container_header {
@@ -63,8 +83,9 @@ h1 {
 
 .container_time {
   margin-bottom: 10px;
-
-  color: rgb(163, 162, 162);
+  line-height: 20px;
+  color: rgb(78, 76, 76);
+  letter-spacing: 1px;
 }
 
 .container_block {
@@ -73,6 +94,12 @@ h1 {
 
 .container_text {
   margin-bottom: 10px;
+}
+
+.container_footer {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .container_study {
@@ -98,8 +125,16 @@ h1 {
 
 .sidebar {
   background-color: rgb(219, 218, 218);
+  overflow: auto;
+  width: 35%;
+}
 
-  width: 20%;
+.sidebar_lang {
+  margin: 5px 0 0 5px;
+}
+
+.sidebar_header {
+  display: none;
 }
 
 .sidebar_main {
@@ -126,11 +161,10 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
+  margin-bottom: 15px;
 }
 
 .sidebar_list li {
-  height: 14px;
-
   padding: 6px;
 
   background: rgb(245, 242, 242);
@@ -140,6 +174,7 @@ h1 {
   font-size: 10px;
   font-weight: 500;
   line-height: 14px;
+  height: 12px;
 }
 
 .sidebar_icons {
@@ -201,6 +236,79 @@ a:hover {
 
   margin: 10px auto;
 
-  outline-offset: 2px;
+  outline-offset: 4px;
   outline: 1px solid black;
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .container {
+    margin: 0;
+    max-width: 100%;
+    display: block;
+  }
+
+  .container_header {
+    display: none;
+  }
+
+  .container_study {
+    padding-bottom: 10px;
+  }
+
+  .container_main {
+    width: 100%;
+  }
+
+  .container_my_prof {
+    margin-bottom: 25px;
+  }
+
+  .container_chapter {
+    padding-top: 20px;
+  }
+
+  .helpers_subtitle {
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar_header {
+    display: block;
+    text-align: center;
+  }
+
+  .sidebar_main {
+    text-align: center;
+  }
+
+  .sidebar_icons {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .sidebar_skills_main {
+    margin-top: 10px;
+  }
+
+  .sidebar_title {
+    margin-top: 30px;
+  }
+
+  .sidebar_list {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .sidebar_contacts {
+    margin-bottom: 15px;
+  }
 }
